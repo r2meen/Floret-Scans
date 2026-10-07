@@ -1,0 +1,29 @@
+# Floret Scans — Model Training
+
+Step 1 of the build: fine-tune MobileNetV3 on the Oxford 102 Flowers dataset.
+
+## Setup
+
+```bash
+pip install -r requirements.txt
+```
+
+## Train
+
+```bash
+python train.py --epochs 10 --batch-size 32
+```
+
+- First run downloads the dataset automatically (~330MB) into `./data`.
+- Best model (by validation accuracy) is saved as `floret_scans_model.pth`.
+- On CPU, expect ~5-10 min/epoch depending on your machine. On a free Colab GPU, more like 30-60 sec/epoch.
+
+## Files
+
+- `train.py` — training loop
+- `labels.py` — maps the dataset's numeric class indices (0-101) to flower names
+- `descriptions.json` — flower name -> family + description, used later by the API. Currently has 10 species filled in as a starting template; expand this as needed (or ask me to generate the rest).
+
+## Next steps
+
+Once you have `floret_scans_model.pth` with a val_acc you're happy with (80%+ is a reasonable target for a first pass), the next piece is the FastAPI `/predict` endpoint that loads this model and serves predictions — that's Phase 2.

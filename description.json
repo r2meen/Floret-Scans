@@ -1,0 +1,42 @@
+{
+  "rose": {
+    "family": "Rosaceae",
+    "description": "A classic flowering shrub known for its layered, fragrant petals. Roses come in hundreds of cultivated varieties and colors, and have been cultivated for thousands of years."
+  },
+  "sunflower": {
+    "family": "Asteraceae",
+    "description": "A tall, fast-growing plant with a large flower head of golden petals surrounding a dense center of seeds. Known for heliotropism — young flowers track the sun across the sky."
+  },
+  "daffodil": {
+    "family": "Amaryllidaceae",
+    "description": "A trumpet-shaped spring bulb flower, usually yellow or white, often among the first blooms to appear after winter."
+  },
+  "tiger lily": {
+    "family": "Liliaceae",
+    "description": "A bold orange lily with distinctive black spots on its petals, native to eastern Asia. Its bulbs are edible and used in some Asian cuisines."
+  },
+  "petunia": {
+    "family": "Solanaceae",
+    "description": "A popular garden and container flower with trumpet-shaped blooms in a wide range of colors, valued for blooming continuously through summer."
+  },
+  "hibiscus": {
+    "family": "Malvaceae",
+    "description": "A large, showy tropical flower with five broad petals and a prominent central stamen, often used in teas and as a national/state flower symbol."
+  },
+  "water lily": {
+    "family": "Nymphaeaceae",
+    "description": "An aquatic flower that floats on still water, with broad round leaves (lily pads) and star-shaped blooms that open in the morning and close at night."
+  },
+  "magnolia": {
+    "family": "Magnoliaceae",
+    "description": "An ancient flowering plant genus with large, waxy, fragrant blooms, predating bees — originally pollinated by beetles."
+  },
+  "carnation": {
+    "family": "Caryophyllaceae",
+    "description": "A ruffled, long-lasting cut flower available in many colors, commonly used in bouquets and boutonnieres."
+  },
+  "foxglove": {
+    "family": "Plantaginaceae",
+    "description": "A tall spike of tubular, bell-shaped flowers, typically purple or white with speckled throats. Note: the plant is toxic if ingested."
+  }
+}
